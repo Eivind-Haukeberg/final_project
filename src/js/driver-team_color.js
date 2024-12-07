@@ -50,8 +50,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   
-  // CHECK TEAM NAME IN COLOR LIST
-  if (teamColors[teamName]) {
+  // CHECK TEAM NAME IN COLOR LIST VS TEAM NAME FORM <title>
+  if (teamColors[teamName]) {        // why is this in [] ? why is it not (teamColors === teamName)?
     
     const colors = teamColors[teamName];
     document.body.style.backgroundColor = colors.backgroundColor;

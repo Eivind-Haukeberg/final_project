@@ -1,8 +1,31 @@
+@font-face {
+    font-family: 'Titillium';
+    src: url('../assets/fonts/TitilliumWeb-Regular.ttf') format('truetype');
+    font-weight: 400; /* Normal weight */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Titillium';
+    src: url('../assets/fonts/TitilliumWeb-Bold.ttf') format('truetype');
+    font-weight: 700; /* Bold weight */
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Titillium';
+    src: url('../assets/fonts/TitilliumWeb-Italic.ttf') format('truetype');
+    font-weight: 400; /* normal weight */
+    font-style: italic;
+  }
+
 :root {
     --core-black: #1e2328;
     --secondary-black: #3b3f46;
     --background-black: #2a2e34;
     --core-yellow: #ffbb00;
-    --secondary-yellow: #fed053;
-    --white: #f1f1f1;
+    --secondary-yellow: #ffda72;
+    --core-white: #f1f1f1;
+
+    --font-primary: 'Titillium', 'Arial', sans-serif;
 }

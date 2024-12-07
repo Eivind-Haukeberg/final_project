@@ -9,17 +9,24 @@
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 0.5rem;
-    background-color: #88cec7;
-    color: #333;
+    background-color: var(--secondary-black);
+    color: var(--core-white);
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 2rem;
     margin: 0 0.5rem;
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .standings__tab--active {
-    background-color: #ffbb00;
-    color: #fff;
+    background-color: var(--core-yellow);
+  color: var(--core-black);
 }
+
+.standings__tab:hover {
+    background-color: var(--secondary-yellow);
+    color: var(--core-black);
+  
+  }
 
 /* STANDINGS TABLE STYLE */
 .standings__grid .standings__table {
@@ -33,20 +40,21 @@
 
 .standings__table th,
 .standings__table td {
-    border: 1px solid #ddd;
+    border: 1px solid var(--core-white);
     padding: 0.75rem;
 }
 
 .standings__header-cell {
-    background-color: #724040;
+    background-color: var(--core-yellow);
+    color: var(--core-black);
     font-weight: bold;
 }
 
 /* ALTERNATING COLOR*/
 .standings__body-row:nth-child(odd) {
-    background-color: #202020;
+    background-color: var(--core-black);
 }
 
 .standings__body-row:nth-child(even) {
-    background-color: #666666;
+    background-color: var(--secondary-black);
 }
