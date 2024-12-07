@@ -78,6 +78,7 @@
   text-decoration: none;
   border: solid 3px var(--core-yellow);
   transition: background-color 0.3s ease;
+  margin: 1rem;
 }
 
 .teams-grid__item:hover {

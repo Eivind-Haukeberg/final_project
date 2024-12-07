@@ -1,1 +1,4 @@
+After I had finished the shop page and the driver/teams. I figured out that I should also make the product page fill out the item info based on an array from JS. But this time I matched with HTML name instead of title name. It was harder becaUSE I  STRUGGLED A LOT WITH THE CORRECT FUNCTION. HAD TO GOOGLE.
+If I get time I will add an offer badge to the items aswell.
+
 teams i could not find any gp's entered info. so i had to hide that filter from that view and have it visible for driver. and for teams i den added "founded" which again was then only visible for teams and not for driver.

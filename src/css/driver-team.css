@@ -39,6 +39,7 @@
   
   .drivers__heading {
     margin-bottom: 1rem;
+    color: var(--core-yellow);
   }
   
   .drivers__list {
