@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Standings | Formula One</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/variables.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/standings.css" />
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <h1 class="navbar__title">F1</h1>
+      <nav class="navbar__nav">
+        <ul class="navbar__links">
+          <li class="navbar__item">
+            <a href="../index.html" class="navbar__link">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./teams.html" class="navbar__link">Teams</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./standings.html" class="navbar__link--active"
+              >Standings</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a href="./shop.html" class="navbar__link">Shop</a>
+          </li>
+        </ul>
+      </nav>
+      <span class="navbar__hamburger">&#9776;</span>
+    </header>
+
+    <main class="standings">
+      <div class="standings__tabs">
+        <button id="drivers-tab" class="standings__tab standings__tab--active">
+          Drivers
+        </button>
+        <button id="teams-tab" class="standings__tab">Teams</button>
+      </div>
+
+      <section class="standings__grid">
+        <table class="standings__table">
+          <thead class="standings__header">
+            <tr class="standings__header-row">
+              <th class="standings__header-cell">Rank</th>
+              <th class="standings__header-cell">Name</th>
+              <th class="standings__header-cell">Points</th>
+            </tr>
+          </thead>
+          <tbody class="standings__body" id="standings-body">
+            <!-- ROWS COME HERE FROM JS -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p class="footer__text">© 2024 Formula One. All rights reserved.</p>
+    </footer>
+
+    <script src="../js/standings.js"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teams | Formula One</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/variables.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/teams.css" />
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <h1 class="navbar__title">F1</h1>
+      <nav class="navbar__nav">
+        <ul class="navbar__links">
+          <li class="navbar__item">
+            <a href="../index.html" class="navbar__link">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./teams.html" class="navbar__link--active">Teams</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./standings.html" class="navbar__link">Standings</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./shop.html" class="navbar__link">Shop</a>
+          </li>
+        </ul>
+      </nav>
+      <span class="navbar__hamburger">&#9776;</span>
+    </header>
+
+    <main class="main-content">
+      <div class="tabs">
+        <button id="teams-tab" class="tabs__button tabs__button--active">
+          Teams
+        </button>
+        <button id="drivers-tab" class="tabs__button">Drivers</button>
+      </div>
+
+      <div class="filters">
+        <span
+          id="filter-gp-entered"
+          class="filters__option filters__option--active"
+          >GPs Entered</span
+        >
+        <span id="filter-gp-wins" class="filters__option">GP Wins</span>
+        <span id="filter-championships" class="filters__option"
+          >Championships</span
+        >
+      </div>
+
+      <div class="teams-grid">
+        <!-- CARDS COME HERE FROM THE JS -->
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p class="footer__text">© 2024 Formula One. All rights reserved.</p>
+    </footer>
+
+    <script src="../js/teams.js"></script>
+  </body>
+</html>

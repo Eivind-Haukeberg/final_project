@@ -1,0 +1,74 @@
+
+/* TEAM PAGE STYLING (DRIVER PAGE STYLING WHEN ON A DRIVER) */
+.team__name {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  
+  .team__name-logo {
+    max-width: 300px;
+    border-radius: 1rem;
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.5);
+  }
+  
+  .team__info {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--background-black);
+    border-radius: 1rem;
+  }
+  
+  .team__info-heading {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+  
+  .team__info-text {
+    text-align: justify;
+    line-height: 1.6;
+    margin: 1rem;
+  }
+  
+  /* DRIVER CARD (AND TEAM WHEN ON A DRIVER PAGE) */
+  .drivers {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .drivers__heading {
+    margin-bottom: 1rem;
+  }
+  
+  .drivers__list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .driver-card {
+    display: flex;
+    background-color: var(--secondary-black);
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    color: var(--white);
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.5);
+  }
+  
+  .driver-card__image {
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .driver-card__info {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .driver-card__name {
+    font-size: 1rem;
+    margin: 0;
+  }

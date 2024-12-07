@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop | Formula One</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/variables.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/shop.css" />
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <h1 class="navbar__title">F1</h1>
+      <nav class="navbar__nav">
+        <ul class="navbar__links">
+          <li class="navbar__item"><a href="../index.html" class="navbar__link">Home</a></li>
+          <li class="navbar__item"><a href="./teams.html" class="navbar__link">Teams</a></li>
+          <li class="navbar__item"><a href="./standings.html" class="navbar__link">Standings</a></li>
+          <li class="navbar__item"><a href="./shop.html" class="navbar__link--active">Shop</a></li>
+        </ul>
+      </nav>
+      <span class="navbar__hamburger">&#9776;</span>
+    </header>
+
+    <main class="shop">
+      <div class="shop__controls">
+        <select id="filter-dropdown" class="shop__filter-dropdown">
+          <option value="all" class="shop__filter-option">All Items</option>
+          <option value="shirt" class="shop__filter-option">Shirt</option>
+          <option value="cap" class="shop__filter-option">Cap</option>
+        </select>
+      </div>
+
+      <section class="shop__grid" id="shop-grid">
+        <!-- ITEMS COME HERE FROM JS -->
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p class="footer__text">© 2024 Formula One. All rights reserved.</p>
+    </footer>
+
+    <script src="../js/shop.js"></script>
+  </body>
+</html>

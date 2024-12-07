@@ -1,0 +1,52 @@
+/* TAB STYLE */
+.standings__tabs {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.standings__tab {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #88cec7;
+    color: #333;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+}
+
+.standings__tab--active {
+    background-color: #ffbb00;
+    color: #fff;
+}
+
+/* STANDINGS TABLE STYLE */
+.standings__grid .standings__table {
+    width: 50%;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    font-size: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.standings__table th,
+.standings__table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+}
+
+.standings__header-cell {
+    background-color: #724040;
+    font-weight: bold;
+}
+
+/* ALTERNATING COLOR*/
+.standings__body-row:nth-child(odd) {
+    background-color: #202020;
+}
+
+.standings__body-row:nth-child(even) {
+    background-color: #666666;
+}

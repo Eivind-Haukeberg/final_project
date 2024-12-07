@@ -1,0 +1,120 @@
+/* PRODUCT PAGE STYLINGe */
+.product-page {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.product-page__container {
+  display: flex;
+  gap: 2rem;
+  max-width: 1200px;
+  width: 100%;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+}
+
+.product-page__image img {
+  width: 400px;
+  height: auto;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.product-page__details {
+  flex: 1;
+}
+
+.product-page__title {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+  color: #ff6600;
+}
+
+.product-page__stock-status {
+  color: green;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.product-page__price {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* ORDER BUTTON */
+.product-page__order-button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.product-page__order-button:hover {
+  background-color: #cc5200;
+}
+
+/*  BUY BUTTON */
+.product-page__buy-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-page__buy-button:hover {
+  background-color: #218838;
+}
+
+/* HIDDEN ORDER FORM */
+.product-page__order-form--hidden {
+  display: none;
+}
+
+.product-page__form {
+  margin-top: 2rem;
+}
+
+.product-page__form-title {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.product-page__label {
+  display: block;
+  margin: 0.5rem 0 0.25rem;
+  font-size: 1rem;
+}
+
+.product-page__input,
+.product-page__select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.product-page__card-details {
+  display: flex;
+  gap: 1rem;
+}
+
+.product-page__card-field {
+  flex: 1;
+}
+
+

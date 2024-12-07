@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>McLaren Cap</title>
+    <link rel="stylesheet" href="../../css/reset.css" />
+    <link rel="stylesheet" href="../../css/variables.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/product.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <h1 class="navbar__title">F1</h1>
+      <nav class="navbar__nav">
+        <ul class="navbar__links">
+          <li class="navbar__item"><a href="../../index.html" class="navbar__link">Home</a></li>
+          <li class="navbar__item"><a href="../teams.html" class="navbar__link">Teams</a></li>
+          <li class="navbar__item"><a href="../standings.html" class="navbar__link">Standings</a></li>
+          <li class="navbar__item"><a href="../shop.html" class="navbar__link--active">Shop</a></li>
+        </ul>
+      </nav>
+      <span class="navbar__hamburger">&#9776;</span>
+    </header>
+
+    <main class="product-page">
+      <div class="product-page__container">
+        <!-- PRODUCT IMAGE -->
+        <div class="product-page__image">
+          <img
+            src="../../assets/images/shop/cap_mclaren.avif"
+            alt="McLaren Cap"
+          />
+        </div>
+        <!-- PRODUCT DETAILS -->
+        <div class="product-page__details">
+          <h2 class="product-page__title">McLaren 2024 Team Cap - Orange</h2>
+          <p class="product-page__stock-status">In Stock</p>
+          <p class="product-page__price">$20.00</p>
+
+          <!-- ORDER BUTTON -->
+          <button class="product-page__order-button">Order</button>
+
+          <!-- HIDDEN ORDER FORM -->
+          <div
+            class="product-page__order-form product-page__order-form--hidden"
+          >
+            <h3 class="product-page__form-title">Order Details</h3>
+            <form class="product-page__form" id="order-form">
+              <label class="product-page__label" for="name">Name</label>
+              <input
+                class="product-page__input"
+                type="text"
+                id="name"
+                name="name"
+                required
+              />
+
+              <label class="product-page__label" for="address">Address</label>
+              <input
+                class="product-page__input"
+                type="text"
+                id="address"
+                name="address"
+                required
+              />
+
+              <label class="product-page__label" for="phone">Phone</label>
+              <input
+                class="product-page__input"
+                type="tel"
+                id="phone"
+                name="phone"
+                required
+              />
+
+              <label class="product-page__label" for="email">Email</label>
+              <input
+                class="product-page__input"
+                type="email"
+                id="email"
+                name="email"
+                required
+              />
+
+              <label class="product-page__label" for="payment-option"
+                >Payment Option</label
+              >
+              <select
+                class="product-page__select"
+                id="payment-option"
+                name="payment-option"
+                required
+              >
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+              </select>
+
+              <div class="product-page__card-details">
+                <div class="product-page__card-field">
+                  <label class="product-page__label" for="card-number"
+                    >Card Number</label
+                  >
+                  <input
+                    class="product-page__input"
+                    type="text"
+                    id="card-number"
+                    name="card-number"
+                    maxlength="16"
+                    required
+                  />
+                </div>
+                <div class="product-page__card-field">
+                  <label class="product-page__label" for="cvv">CVV</label>
+                  <input
+                    class="product-page__input"
+                    type="text"
+                    id="cvv"
+                    name="cvv"
+                    maxlength="3"
+                    required
+                  />
+                </div>
+              </div>
+              <button type="submit" class="product-page__buy-button">
+                Buy
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">© 2024 Formula One Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="../../js/product.js"></script>
+  </body>
+</html>

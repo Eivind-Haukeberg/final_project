@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News | Formula One</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <h1 class="navbar__title">F1</h1>
+      <nav class="navbar__nav">
+        <ul class="navbar__links">
+          <li class="navbar__item"><a href="index.html" class="navbar__link--active">Home</a></li>
+          <li class="navbar__item"><a href="./pages/teams.html" class="navbar__link">Teams</a></li>
+          <li class="navbar__item"><a href="./pages/standings.html" class="navbar__link">Standings</a></li>
+          <li class="navbar__item"><a href="./pages/shop.html" class="navbar__link">Shop</a></li>
+        </ul>
+      </nav>
+      <span class="navbar__hamburger">&#9776;</span>
+    </header>
+
+    <main>
+      
+      <section class="news__header">
+        <h1 class="news__title">NEWS</h1>
+      </section>
+
+      <section class="news__grid">
+        <article class="news__card">
+          <img
+            class="news__card-image"
+            src="./assets/images/teams/team_mclaren.avif"
+            alt="McLaren News"
+          />
+          <div class="news__card-text">
+            <h2 class="news__card-title">McLaren Under FIA Investigation</h2>
+            <p class="news__card-description">
+              Allegations about McLaren’s fuel blend have sparked controversy.
+              FIA investigation is underway.
+            </p>
+          </div>
+        </article>
+        <article class="news__card">
+          <img
+            class="news__card-image"
+            src="./assets/images/news/news_leclerc.avif"
+            alt="Charles Leclerc News"
+          />
+          <div class="news__card-text">
+            <h2 class="news__card-title">Ferrari F1: A Dominant Force</h2>
+            <p class="news__card-description">
+              Ferrari delivers exceptional performances, showcasing the skills
+              of Charles Leclerc.
+            </p>
+          </div>
+        </article>
+        <article class="news__card">
+          <img
+            class="news__card-image"
+            src="./assets/images/news/news_williams-drivers.avif"
+            alt="Williams News"
+          />
+          <div class="news__card-text">
+            <h2 class="news__card-title">Williams Makes a Comeback</h2>
+            <p class="news__card-description">
+              Alexander Albon leads Williams’ impressive resurgence on the
+              Formula One grid.
+            </p>
+          </div>
+        </article>
+        <!-- ROOM FOR MORE NEWS CARDS -->
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p class="footer__text">© 2024 Formula One. All rights reserved.</p>
+    </footer>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
