@@ -47,6 +47,10 @@ body {
   padding: 1rem;
 }
 
+.navbar__link:hover {
+  color: var(--secondary-yellow);
+}
+
 
 .navbar__link--active {
   font-weight: bold;

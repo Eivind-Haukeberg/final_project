@@ -204,7 +204,7 @@ const teams = [
     gpsEntered: 1099,
     gpWins: 249,
     championships: 16,
-    image: "../assets/images/teams/team_ferrari.avif",
+    image: "../assets/images/teams/team_ferrari.png",
     link: "./teams/ferrari.html",
   },
   {
@@ -236,7 +236,7 @@ const teams = [
     gpsEntered: 488,
     gpWins: 1,
     championships: 0,
-    image: "../assets/images/teams/team_kick-sauber.avif",
+    image: "../assets/images/teams/team_kick-sauber.png",
     link: "./teams/kicksauber.html",
   },
   {
