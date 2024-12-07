@@ -9,7 +9,21 @@
 .shop__filter-dropdown {
     padding: 0.5rem;
     font-size: 1rem;
+    color: var(--core-white);
+    background-color: var(--secondary-black);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.shop__filter-dropdown:hover {
     background-color: var(--core-yellow);
+    color: var(--core-black);
+}
+
+/* Focus styles for the dropdown */
+.shop__filter-dropdown:focus {
+    background-color: var(--core-yellow); /* Set focus background */
+    color: var(--core-black); /* Contrasting text color */
+    outline: none;
 }
 
 
@@ -43,6 +57,10 @@
     padding: 1rem;
 }
 
+.shop__item-price {
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
 .shop__item:hover {
     background-color: var(--core-yellow);
     color: var(--core-black);
@@ -52,6 +70,7 @@
 
 }
 
+
 .shop__item img {
     width: 100%;
     height: auto;
@@ -60,6 +79,7 @@
     margin-bottom: 1rem;
     border-radius: 1rem;
     background-color: #f4f4f9;
+    box-shadow: 0 4px 8px var(--core-black);
 
 }
 
