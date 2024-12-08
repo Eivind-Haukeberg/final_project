@@ -58,3 +58,25 @@
 .standings__body-row:nth-child(even) {
     background-color: var(--secondary-black);
 }
+
+
+
+
+
+
+
+
+/* Tablet 768px - 1023px */
+@media (max-width: 1023px) and (min-width: 768px) {
+
+}
+
+/* Mobile 480px - 767px */
+@media (max-width: 767px) and (min-width: 480px) {
+
+}
+
+/* Small Mobile 320px - 479px */
+@media (max-width: 479px) {
+ 
+}

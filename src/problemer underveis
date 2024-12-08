@@ -2,3 +2,11 @@ After I had finished the shop page and the driver/teams. I figured out that I sh
 If I get time I will add an offer badge to the items aswell.
 
 teams i could not find any gp's entered info. so i had to hide that filter from that view and have it visible for driver. and for teams i den added "founded" which again was then only visible for teams and not for driver.
+
+
+
+CHanging logos in the navbar. having to copy paste it again and again. Need to figure out how to make a dynamic navbar
+
+
+when copying in the app.js to all pages for the hamburger. i had to change the path a lot. and it was extremely tideous (./ somewhere, ../ somewhere else, and ../../ other places) Is there a better way?
+
