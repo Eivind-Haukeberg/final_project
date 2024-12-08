@@ -11,4 +11,4 @@ Description: This page is supposed to be a fan page for Formula 1. The pages con
      * Driver pages when you click on the cards
 * Standings - A table of the current 2024 standings that can be sorted with a button.
 * Shop - A shop containing some item cards that can be clicked on.
-      * Product pages with fields to order items.
+        * Product pages with fields to order items.
