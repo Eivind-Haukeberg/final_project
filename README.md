@@ -24,8 +24,8 @@ The following sources were referenced during the development of this project:
 
 Information:  
 
-Formula 1 Official Website: https://www.formula1.com/ 
-Wikipedia: https://www.wikipedia.org/  
+Formula 1 Official Website: https://www.formula1.com/  
+Wikipedia: https://www.wikipedia.org/   
 Text and assistance from OpenAI's ChatGPT: https://openai.com/chatgpt  
 
 Images:  
