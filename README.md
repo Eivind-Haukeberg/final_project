@@ -22,10 +22,9 @@ Description: This page is supposed to be a fan page for Formula 1. The pages con
 The following sources were referenced during the development of this project:
 
 Information:
+Formula 1 Official Website: https://www.formula1.com/ 
+Wikipedia: https://www.wikipedia.org/ 
+Text and assistance from OpenAI's ChatGPT: https://openai.com/chatgpt 
 
-Formula 1 Official Website: https://www.formula1.com/
-Wikipedia: https://www.wikipedia.org/
-Text and assistance from OpenAI's ChatGPT: https://openai.com/chatgpt
 Images:
-
 Formula 1 Official Website: https://www.formula1.com/
