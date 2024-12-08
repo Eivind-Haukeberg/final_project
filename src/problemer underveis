@@ -10,3 +10,7 @@ CHanging logos in the navbar. having to copy paste it again and again. Need to f
 
 when copying in the app.js to all pages for the hamburger. i had to change the path a lot. and it was extremely tideous (./ somewhere, ../ somewhere else, and ../../ other places) Is there a better way?
 
+when changing tabs on the team/drivers, the sorting does not reset
+
+
+making the CV being a smaller input field ment i had to change a lot of HTMLS. maybe make the html more often in JS like on the Drivers/teams? 

@@ -19,11 +19,9 @@
     color: var(--core-black);
 }
 
-/* Focus styles for the dropdown */
 .shop__filter-dropdown:focus {
-    background-color: var(--core-yellow); /* Set focus background */
-    color: var(--core-black); /* Contrasting text color */
-    outline: none;
+    background-color: var(--core-yellow);
+    color: var(--core-black);
 }
 
 
@@ -78,7 +76,7 @@
     object-fit: contain;
     margin-bottom: 1rem;
     border-radius: 1rem;
-    background-color: #f4f4f9;
+    background-color: #fff;
     box-shadow: 0 4px 8px var(--core-black);
 
 }

@@ -120,7 +120,13 @@
   flex: 1;
 }
 
+.product-page__card-field--card {
+  flex: 7
+}
 
+.product-page__card-field--cvv {
+  flex: 3
+}
 
 
 
@@ -129,15 +135,34 @@
 
 /* Tablet 768px - 1023px */
 @media (max-width: 1023px) and (min-width: 768px) {
-
 }
 
 /* Mobile 480px - 767px */
 @media (max-width: 767px) and (min-width: 480px) {
-
+  .product-page__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .product-page__image img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    object-fit: cover;
+  }
+  
 }
 
 /* Small Mobile 320px - 479px */
 @media (max-width: 479px) {
- 
+  .product-page__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-page__image img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    object-fit: cover;
+  }
 }

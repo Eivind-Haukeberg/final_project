@@ -30,12 +30,19 @@
 
 /* STANDINGS TABLE STYLE */
 .standings__grid .standings__table {
-    width: 50%;
     margin: 2rem auto;
     border-collapse: collapse;
     font-size: 1rem;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.standings__grid {
+    width: 100%;
+}
+
+.standings__table {
+    width: 60%;
 }
 
 .standings__table th,
@@ -68,15 +75,21 @@
 
 /* Tablet 768px - 1023px */
 @media (max-width: 1023px) and (min-width: 768px) {
-
+    .standings__table {
+    width: 80%;
+    }
 }
 
 /* Mobile 480px - 767px */
 @media (max-width: 767px) and (min-width: 480px) {
-
+    .standings__table {
+        width: 80%;
+        }
 }
 
 /* Small Mobile 320px - 479px */
 @media (max-width: 479px) {
- 
+    .standings__table {
+        width: 80%;
+        }
 }

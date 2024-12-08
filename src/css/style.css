@@ -105,9 +105,7 @@ body {
 
 /* Tablet (768px - 1023px) */
 @media (max-width: 1023px) and (min-width: 768px) {
-  body {
-    font-size: 14px; /* Adjustments for tablets */
-  }
+ 
 }
 
 /* Mobile (480px - 767px) */
