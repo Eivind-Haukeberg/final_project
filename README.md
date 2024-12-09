@@ -1,12 +1,12 @@
-Student name: Eivind Siegel Haukeberg.
-
 Prosject: Final-Project, 2024.
 
 Theme of the project: Formula 1 Fan Page.
 
-Git: https://github.com/Eivind-Haukeberg/final_project-eivind-siegel-haukeberg/tree/main
+Git: https://github.com/Eivind-Haukeberg/final_project
 
-Netlify: https://f1-eivind-haukeberg.netlify.app/
+Netlify: https://formula-1-fan-page.netlify.app/
+
+Figma: https://www.figma.com/design/NXYoLGNg4mqkQtTPMld8Dy/Formula-1-Fan-Page?node-id=0-1&t=Vy472vIGfSJTVjsO-1
 
 Description: This page is supposed to be a fan page for Formula 1. The pages contains: 
 * Home - A page with some cards highlighting some fictional news.
