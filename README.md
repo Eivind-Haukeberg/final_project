@@ -2,7 +2,7 @@ Prosject: Final-Project, 2024.
 
 Theme of the project: Formula 1 Fan Page.
 
-Git: https://github.com/Eivind-Haukeberg/final_project-eivind-siegel-haukeberg/tree/main
+Git: https://github.com/Eivind-Haukeberg/final_project
 
 Netlify: https://formula-1-fan-page.netlify.app/
 
