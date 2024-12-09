@@ -124,7 +124,7 @@
   height: auto;
   border-radius: 0.5rem;
   object-fit: cover;
-  box-shadow: 0 4px 8px var(--core-black);
+  box-shadow: 0 4px 8px black;
 }
 
 /* MIDDLE SECTION ON CARD */
