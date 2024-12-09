@@ -4,7 +4,7 @@ Theme of the project: Formula 1 Fan Page.
 
 Git: https://github.com/Eivind-Haukeberg/final_project-eivind-siegel-haukeberg/tree/main
 
-Netlify: [https://f1-eivind-haukeberg.netlify.app/](https://formula-1-fan-page.netlify.app/)
+Netlify: https://formula-1-fan-page.netlify.app/
 
 Figma: https://www.figma.com/design/NXYoLGNg4mqkQtTPMld8Dy/Formula-1-Fan-Page?node-id=0-1&t=Vy472vIGfSJTVjsO-1
 
